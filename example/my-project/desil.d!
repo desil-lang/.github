@@ -1,0 +1,3 @@
+#[desil.toml] //This line shows what files it is dependent on, importing and setting all values in desil.toml, as well as executing the script desil.sh
+  fun main // This line defines function main
+    print($h$w) // This line prints the variables h and w
