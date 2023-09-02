@@ -1,12 +1,15 @@
 [desil]
-[desil.project]
+projects = ['project1']
+
+[desil.project1]
 name = 'Hello'
 author = 'tired-tux'
+lang = 'rust'
 # This file is required by the compiler. It contains variable names, function names, and much more!
 # The purpose of this file is to make the code less bloated.
-# A cool feature about this file is it can support sub files!
-[desil.project.vars]
+# A cool feature about this file is it can support sub-files and changes what language it compiles into!
+[desil.project1.vars]
 h = 'Hello,'
 w= ' world!'
-[desil.project.fn]
+[desil.project1.fn]
 fun = ['main']
