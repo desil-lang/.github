@@ -1,7 +1,7 @@
 [desil]
 projects = ['project1']
-
 [desil.project1]
+script = 'desil.sh'
 name = 'Hello'
 author = 'tired-tux'
 lang = 'rust'
