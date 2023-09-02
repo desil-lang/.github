@@ -1,0 +1,12 @@
+[desil]
+[desil.project]
+name = 'Hello'
+author = 'tired-tux'
+# This file is required by the compiler. It contains variable names, function names, and much more!
+# The purpose of this file is to make the code less bloated.
+# A cool feature about this file is it can support sub files!
+[desil.project.vars]
+h = 'Hello,'
+w= ' world!'
+[desil.project.fn]
+fun = ['main']
